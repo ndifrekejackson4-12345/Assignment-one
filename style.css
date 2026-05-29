@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header h2{
+    margin: 0px;
+    padding: 20px;
+    color: gray;
+    /* background-color: aqua; */
+}
+header nav{
+list-style-type: none;
+display: inline;
+flex-direction: row;
+padding: 10px;
+margin: 10px;
+justify-content: space-between;
+}
+header nav a{
+    justify-content: space-between;
+    margin: 20px;
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    color:black;
+}
+/* header nav a:hover */
+.first{
+    margin: 0;
+    background-image: url("./IMAGE/background-pic.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
